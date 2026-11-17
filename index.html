@@ -34,7 +34,7 @@
     <h2>Setup</h2>
     <ol>
       <li>Download the zip and double-click it.</li>
-      <li>Move the <code>starter-kit</code> folder into your Dropbox and rename it to your name.</li>
+      <li>Move the <code>starter-kit</code> folder into your Dropbox and rename it to your name plus OS, like <code>LeOS</code> or <code>JandrOS</code>.</li>
       <li>Open <code>README-START-HERE.md</code> and follow the numbered steps.</li>
       <li>If your Mac won't open a <code>.command</code> file, right-click it and choose Open. You only do this once.</li>
     </ol>
@@ -44,9 +44,31 @@
     <h2>Instalación</h2>
     <ol>
       <li>Descarga el zip y haz doble clic.</li>
-      <li>Mueve la carpeta <code>starter-kit</code> a tu Dropbox y ponle tu nombre.</li>
+      <li>Mueve la carpeta <code>starter-kit</code> a tu Dropbox y ponle tu nombre más OS, como <code>LeOS</code> o <code>JandrOS</code>.</li>
       <li>Abre <code>README-START-HERE.md</code> y sigue los pasos numerados.</li>
       <li>Si tu Mac no abre un archivo <code>.command</code>, haz clic derecho y elige Abrir. Solo la primera vez.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Install your AI / Instala tu IA</h2>
+    <p>Open Terminal (Command + Space, type Terminal), paste one line, press Return. No Homebrew needed. / Abre Terminal, pega una línea y pulsa Return. No necesitas Homebrew.</p>
+    <p>Claude Code (Claude Pro or Max):<br><code>curl -fsSL https://claude.ai/install.sh | bash</code></p>
+    <p>Codex (ChatGPT Plus or higher):<br><code>curl -fsSL https://chatgpt.com/codex/install.sh | sh</code></p>
+    <p>Or double-click <code>02-install-claude-code.command</code> or <code>02-install-codex.command</code> in the kit. / O haz doble clic en el archivo 02 que corresponda.</p>
+  </section>
+
+  <section>
+    <h2>What's inside / Qué hay dentro</h2>
+    <ol>
+      <li><code>team-inbox/</code>: Team Inbox. You drop things in; voice memos land in <code>team-inbox/voice/</code>.</li>
+      <li><code>owners-inbox/_New/</code>: Owner's Inbox. Finished work waiting for your review.</li>
+      <li><code>team/</code>: your AI teammates, including an orchestrator and a senior researcher.</li>
+      <li><code>SOPs/</code>: your rules, so the system knows your quality standard.</li>
+      <li><code>knowledge/</code>: your finished, approved work, one folder per course.</li>
+      <li><code>past-work/</code>: work that missed the mark, plus <code>failure-journal.md</code>. Every miss becomes a rule.</li>
+      <li><code>CLAUDE.md</code>: the brain. Codex reads <code>AGENTS.md</code>, which points to the same file.</li>
+      <li><code>journal.md</code>: the work log. End every session with <code>/close-chat</code> (Codex: <code>$close-chat</code>).</li>
     </ol>
   </section>
 
